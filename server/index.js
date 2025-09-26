@@ -9,6 +9,8 @@ import cors from "cors";
 dotenv.config();
 const app = express();
 
+
+
 app.use(cors({ origin: "https://job-application-tracker-client.onrender.com", credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
