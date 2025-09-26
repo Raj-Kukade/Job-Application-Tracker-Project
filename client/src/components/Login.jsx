@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
-axios.defaults.baseURL = 'http://localhost:5000/api';
+axios.defaults.baseURL = 'https://job-application-tracker-server-7pjm.onrender.com';
 axios.defaults.withCredentials = true;
 
 function Login({ setLoggedIn }) {
