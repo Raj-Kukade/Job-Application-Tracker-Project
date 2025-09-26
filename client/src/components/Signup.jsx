@@ -3,11 +3,8 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
-axios.defaults.baseURL = 'https://job-application-tracker-server-7pjm.onrender.com';
+axios.defaults.baseURL = 'http://localhost:5000/api';
 axios.defaults.withCredentials = true;
-
-
-
 
 function Signup() {
   const [form, setForm] = useState({ email: '', password: '' });                     
