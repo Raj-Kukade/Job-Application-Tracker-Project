@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gray-100 text-gray-900;
+}
+
+.input {
+  @apply block w-full mb-3 p-2 border border-gray-300 rounded;
+}
+
+.btn {
+  @apply bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded;
+}
